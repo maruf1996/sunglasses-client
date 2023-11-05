@@ -1,0 +1,13 @@
+.about_banner{
+    background-image:url(../../../images/about-.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 200px;
+    opacity: 0.7;
+}
+
+.heading_about {
+    padding-top: 60px;
+    font-size:60px;
+}

@@ -1,41 +1,35 @@
 .hero_banner{
-    background-image:url(../../../images/sun-allsun-desktop.jpg);
+    background-image:url(../../../images/about-.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     height: 500px;
-    border-top: 15px solid lightcyan;
+    opacity: 0.8;
 }
 
 .heading {
-    color:black;
-    margin-top: 150px;
-   float:left;
-   margin-left: 100px;
+    padding-top: 170px;
 }
 
 @media (min-width: 769px) and (max-width: 968px) {
-    .hero_banner {height: 300px; border-top: 12px solid lightcyan;}
+    .hero_banner {height: 300px;}
     .heading {
-        margin-top: 80px;
-        margin-left: 80px;
+        padding-top: 100px;
         font-size: 32px;
     }
 }
 @media (min-width: 577px) and (max-width: 768px) {
-    .hero_banner {height: 230px; border-top: 10px solid lightcyan;}
+    .hero_banner {height: 230px;}
     .heading {
-        margin-top: 60px;
-        margin-left: 22px;
+        padding-top: 80px;
         font-size: 28px;
     }
 }
 
 @media (min-width: 375px) and (max-width: 576px) {
-    .hero_banner {height:155px; border-top: 8px solid lightcyan;}
+    .hero_banner {height:155px;}
     .heading {
-        margin-top: 45px;
-        margin-left: 15px;
+        padding-top: 50px;
         font-size: 20px;
     }
 }

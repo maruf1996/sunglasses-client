@@ -1,0 +1,16 @@
+.login_container {
+  margin-top: 5rem;
+}
+.login {
+  width: 28rem;
+}
+
+@media only screen and (max-width: 600px) {
+  .login_container {
+    margin-top: 0;
+  }
+  .login {
+    border: white;
+    width: 98%;
+  }
+}
